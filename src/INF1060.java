@@ -18,7 +18,7 @@ public class INF1060 {
                     case "p": printFile(args[1]);
                         break;
                     case "e": { encode(args[1]); writeFile(args[2]); }
-                        break;
+                    break;
                     case "d": decrypt(args[1]);
                         break;
                 }
